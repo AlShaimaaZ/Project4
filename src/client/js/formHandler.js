@@ -25,7 +25,7 @@ function handleSubmit(event) {
             }
         };
 
-        PostData('/all', { url: formText })
+        PostData('http://localhost:8081/all', { url: formText })
     }
 }
 export { handleSubmit }
